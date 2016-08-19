@@ -1,0 +1,186 @@
+body,ul,li,span,div,a,input,button,p,b,i {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /*outline: none;*/
+}
+
+.top {
+    width: 468px;
+    height: 27px;
+    float: right;
+    padding-top: 19px;
+    padding-right: 12px;
+}
+.top .topL {
+    height: 26px;
+    font: 13px/27px "microsoft yahei";
+    float: left;
+    padding-left: 40px;
+}
+.topL li {
+    float: left;
+    padding: 0 8px;
+}
+.topL li a{
+    color: black;
+    font-weight: 700;
+}
+#seting:hover .set{
+    display: block;
+
+}
+#seting .set {
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    border: 1px solid pink;
+    top: 45px;
+    right: 82px;
+    display: none;
+}
+#seting .set i{
+    width: 0;
+    height: 0;
+    border: 5px dashed transparent;
+    /*border: 50px solid black;*/
+    border-bottom: 5px solid #fff;
+    color: #666;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -3px;
+}
+.top .topR {
+    width: 60px;
+    height: 24px;
+    background-color: #3388FF;
+    float: right;
+    text-align: center;
+}
+.topR a {
+    color: white;
+    font: 12px/24px "microsoft yahei";
+}
+.clr {
+    clear: both;
+}
+.logo {
+    height: 129px;
+    width: 100%;
+    text-align: center;
+}
+.search {
+    width: 100%;
+    height: 36px;
+    text-align: center;
+    padding-top: 24px;
+}
+.search input {
+    height: 33px;
+    width: 539px;
+    border: 1px solid #CCCCCC;
+    padding-left: 5px;
+}
+.search button {
+    width: 100px;
+    height: 36px;
+    background-color: #3385FF;
+    text-align: center;
+    border: 0px;
+    color: white;
+    font: 15px/36px "sinsun";
+}
+.spacer {
+    height: 364px;
+}
+.footer {
+    height: 60px;
+    text-align: center;
+}
+.footer .foot {
+    width: 640px;
+    height: 60px;
+    margin: 0 auto;
+}
+.foot .phone {
+    width: 155px;
+    height: 60px;
+    float: left;
+}
+.phone .erwei {
+    width: 60px;
+    height: 60px;
+    float: left;
+    background:url("../images/erwei.png") no-repeat;
+}
+.phone .shouji {
+    float: left;
+    font: 13px/20px "simsun";
+    padding-left: 8px;
+    padding-top: 10px;
+}
+.footer .nuomi {
+    width: 154px;
+    float: left;
+}
+.nuomi .erwei2 {
+    float: left;
+    width: 60px;
+    height: 60px;
+    background: url("../images/erwei.png") no-repeat;
+}
+.nuomi .shouji2 {
+    float: left;
+    font: 13px/20px "simsun";
+    padding-left: 8px;
+    padding-top: 10px;
+}
+.footer .about {
+    width: 330px;
+    height: 60px;
+    float: left;
+    text-align: left;
+}
+.about .zhuye {
+    height: 13px;
+    font: 13px/13px "simsun";
+}
+.zhuye .first {
+    margin-left: 0;
+}
+.zhuye a {
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    color: black;
+}
+.bidu p{
+    font: 12px/30px "simsun";
+}
+.bidu span {
+    background: url("../images/icons.png") no-repeat -600px -96px;
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+.beian i {
+    width: 14px;
+    height: 16px;
+    background: url("../images/icons.png") no-repeat -623px -97px;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+.beian p {
+    font: 12px/19px "simsun";
+    display: inline-block;
+}
+
+
+
+
+
